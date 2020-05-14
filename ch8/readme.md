@@ -26,7 +26,7 @@ Element       = Expression | LiteralValue .
 
 ## 8.2 函数面值
 
-虽然函数面值不在复合类型面值之类，但是函数面值和函数声明非常相似，因此我们先看下函数面值。函数面值的语法如下：
+虽然函数面值不在复合类型面值之内，但是函数面值和函数声明非常相似，因此我们先看下函数面值。函数面值的语法如下：
 
 ```
 FunctionLit   = "func" Signature FunctionBody .
